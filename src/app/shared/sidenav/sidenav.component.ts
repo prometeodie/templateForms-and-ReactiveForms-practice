@@ -9,7 +9,7 @@ interface MenuItem{
   selector: 'app-sidenav',
   templateUrl: './sidenav.component.html',
   styleUrls: ['./sidenav.component.css'],
-  styles: ['cursor: pointer']
+  styles: [`li{cursor: pointer}`]
 })
 export class SidenavComponent  {
 
