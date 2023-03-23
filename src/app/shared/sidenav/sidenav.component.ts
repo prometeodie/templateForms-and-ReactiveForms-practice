@@ -27,7 +27,7 @@ export class SidenavComponent  {
       ruta: 'template/switches'
     },
   ]
-  
+
   reactiveMenu: MenuItem[] = [
     {
       texto: 'Basicos',
@@ -41,6 +41,17 @@ export class SidenavComponent  {
       texto: 'Switches',
       ruta: 'reactive/switches'
     },
+  ]
+
+  authMenu: MenuItem[] = [
+    {
+      texto: 'registro',
+      ruta: 'auth/registro'
+    },
+    {
+      texto: 'login',
+      ruta: 'auth/login'
+    }
   ]
 
 }
